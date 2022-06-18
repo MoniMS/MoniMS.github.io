@@ -105,16 +105,16 @@
     letter-spacing: 0.5px;
     line-height: 1.5;
   }
-  .single-meal ul {
+  .single-meal ol {
     padding-left: 0;
     list-style-type: none;
   }
-  .single-meal li {
+  .single-meal ul {
     border: 1px solid #ededed;
     border-radius: 5px;
     background-color: #fff;
     color: #2d2013;
-    display: inline-block;
+    display: auto;
     font-size: 12px;
     font-weight: bold;
     padding: 5px;
