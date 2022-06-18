@@ -109,7 +109,7 @@
     padding-left: 0;
     list-style-type: none;
   }
-  .single-meal ul {
+  .single-meal li {
     border: 1px solid #ededed;
     border-radius: 5px;
     background-color: #fff;
