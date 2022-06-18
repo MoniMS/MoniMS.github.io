@@ -75,9 +75,9 @@ single_mealEl.innerHTML = `
   <div class="main">
       <p>${meal.strInstructions}</p>
       <h2>Ingredients</h2>
-      <ul>
-          ${ingredients.map((ing) => `<li>${ing}</li>`).join("")}
-      </ul>
+      <ol>
+          ${ingredients.map((ing) => `<ul>${ing}</ul>`).join("")}
+      </ol>
   </div>
 </div>`;
 }
